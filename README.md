@@ -2,6 +2,7 @@
 Primer proyecto de Métodos Cuantitativos en Finanzas.
 
 ### **INTEGRANTES DEL EQUIPO:**
+- Cerros García David
 - Flores Moreno Alan Alberto
 - Melgarejo Hernández Beatriz
 - Tilihuit Ortigoza Rebeca Macbeth
