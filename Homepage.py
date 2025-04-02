@@ -14,3 +14,4 @@ st.write("- Tilihuit Ortigoza Rebeca Macbeth")
 
 st.header("📖 Navegación")
 st.write("Utiliza la barra lateral para moverte entre las diferentes secciones de este análisis.")
+
