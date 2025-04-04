@@ -89,12 +89,3 @@ El gráfico muestra que el VaR con volatilidad móvil se ajusta dinámicamente a
 
 ⚠️ **Nota importante**: Ambos escenarios están sujetos a incertidumbre. Las decisiones de inversión deben considerar factores económicos, estructurales y otros eventos difíciles de predecir. El VaR es solo una herramienta más en la toma de decisiones, no una garantía de rendimiento.
 """)
-
-### APARTADO EXTRA:
-st.subheader("📝 **Información a considerar**")
-st.markdown("""
-# Información a considerar:
-En los siguienes data frames y gráfica se muestran los años en los que han ocurrido mayor número de violaciones del VaR y las fechas donde hubo mayor pérdida, por lo 
-            que analizar el contexto macro o micro ecónomico y financiero puede ayudar a tener una referencia de las situaciones contextuales que pueden llegar a 
-            sobrepasar este indicador.
-""")
