@@ -226,17 +226,17 @@ st.dataframe(df_porcentaje_y_numero_de_violaciones.style.format({
     'props': [('border', '1px solid #ddd'), ('padding', '8px')]
 }]))
 
+
+st.subheader("📊Rolling Windows y Volatilidad")
 st.markdown("""
 📌 Las métricas de riesgo reflejan correctamente el comportamiento de los rendimientos logarítmicos de Google, aunque ninguna es totalmente precisa ante eventos extremos.  
 ✅ El **Expected Shortfall (ES)** destaca por capturar mejor las pérdidas en crisis, como la de **COVID-19 en 2020**, al considerar pérdidas más allá del **VaR**.  
-
----
-
-### 📈 <span style="color:#e67e22;">Rolling Windows y Volatilidad</span>  
+ 
 🔄 El uso de **rolling windows de 252 días** permite que los cálculos de riesgo se actualicen constantemente, asegurando que reflejen la volatilidad del mercado en tiempo real.  
 
 📉 Como era de esperarse, se observa que el **VaR es menor que el ES**, ya que mide solo la pérdida máxima esperada, mientras que el **ES promedia las pérdidas superiores al VaR**, haciendo que sea una métrica más robusta para la gestión del riesgo.
 Además, se confirma que el VaR y el ES al 99% están por debajo de sus equivalentes al 95%, lo que indica que al aumentar el nivel de confianza, se capturan riesgos más extremos.
+
 ---
 
 ### 🎯 <span style="color:#2ecc71;">Impacto del Nivel de Confianza</span>  
